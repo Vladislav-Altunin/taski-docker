@@ -1,7 +1,5 @@
-from pathlib import Path
-
 import os
-
+from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -13,7 +11,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    '130.193.54.163', 
+    '130.193.54.163',
     'taski1206.hopto.org',
     '.hopto.org'  # можно добавить с точкой для всех поддоменов
 ]
